@@ -29,7 +29,8 @@ body{
 
 .container .descricao p{
     color:hsl(0, 0%, 100%) ;
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 .registrar{
@@ -37,3 +38,30 @@ body{
     padding: 10px;
     border-radius: 40%;
 }
+
+input[type="button"] {
+    background-color:hsl hsl(0, 0%, 100%);
+    color:hsl(257, 40%, 49%); 
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px; 
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    color: hsl(0, 0%, 100%);
+    margin: 30px;
+}
+
+.footer i{
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    border-radius:50%;
+    border: 2px solid hsl(0, 0%, 100%);  
+}
+
+
