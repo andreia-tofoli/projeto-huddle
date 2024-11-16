@@ -9,10 +9,10 @@ O objetivo principal deste projeto é aplicar regras de layout responsivo e Flex
 Aqui está uma prévia de como o layout se adapta em diferentes dispositivos:
 
 - **Versão Desktop**  
-  ![Versão Desktop](src\design\desktop-design.jpg)
+  ![Versão Desktop](src\design\Desktop.jpg)
 
 - **Versão Mobile**  
-  ![Versão Mobile](src\design\mobile-design.jpg)
+  ![Versão Mobile](src\design\Mobile.png)
 
 ## Tecnologias Utilizadas
 - **HTML5**: Estrutura semântica do conteúdo.
