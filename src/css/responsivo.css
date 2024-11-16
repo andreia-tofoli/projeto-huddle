@@ -1,76 +1,53 @@
-@media (max-width: 480px){
+@media (max-width: 821px) {
     body {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        background-color: hsl(257, 40%, 49%);
-        background-image: url(../images/bg-mobile.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      background-image: url(../images/bg-mobile.svg);
     }
-
+  
     .header img {
-        padding: 8%;
-        padding-bottom: 10%;
-        max-width: 45%;
+      padding: 8%;
+      max-width: 45%;
     }
-
+  
     .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0 20px;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 20px;
     }
-
+  
     .container img {
-        max-width:88%;
-        padding-bottom: 12%;
-        padding-left: 0;
+      max-width: 70%;
     }
-
-    .container .descricao{
-        padding: 7%;
-        text-align: center;
+  
+    .container .descricao {
+      text-align: center;
+      padding: 7%;
     }
-
+  
     .container .descricao h1 {
-        font-size: 25px;
-        padding-right: 0;
-        padding-bottom: 10px;
-        line-height: 40px;
-        letter-spacing: 0;
+      font-size: 180%;
+      padding-bottom: 10px;
+      line-height: 40px;
     }
-
+  
     .container .descricao p {
-        font-size: 16px;
-        letter-spacing: 1px;
-        font-weight: 300;
-        padding-bottom: 20px;
-        line-height:28px;
+      font-size: 16px;
+      font-weight: 300;
+      padding-bottom: 20px;
+      line-height: 28px;
     }
-
-    input[type="button"] {
-        padding: 10px 60px;
-        border: none;
-        border-radius: 20px;
-        font-size: 16px;
-        font-weight: 400;
-        cursor:pointer;       
+  
+    .footer {
+      justify-content: center;
+      padding: 100px;
     }
-
-    .footer{
-        height: 100%;
-        display: flex;
-        transition: 0.3s; 
-        justify-content: center;
-        height: auto;
-        padding: 100px;   
+  
+    .footer i {
+      width: 30px;
+      height: 30px;
+      font-size: 12px;
+      margin: 0 8px;
     }
-
-    .footer i{
-        width: 30px;
-        height:30px;
-        font-size: 12px;
-        margin: 0px 8px;        
-    }
-}
+  }
+  
