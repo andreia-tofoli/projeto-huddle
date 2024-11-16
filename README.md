@@ -34,7 +34,4 @@ Aqui está uma prévia de como o layout se adapta em diferentes dispositivos:
 - `responsivo.css`: Regras específicas para adaptação em diferentes tamanhos de tela.
 - Pasta `src/images`: Contém imagens e ícones utilizados no projeto.
 
-## Como Usar o Projeto
-1. **Clone o repositório**:
-   ```bash
-   git clone https://github.com/andreia-tofoli/exercicio-huddle-landing-page.git
+
