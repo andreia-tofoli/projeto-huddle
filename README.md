@@ -10,9 +10,12 @@ Aqui está uma prévia de como o layout se adapta em diferentes dispositivos:
 
 - **Versão Desktop**  
   ![Versão Desktop](src\design\Desktop.jpg)
+  ![Versão Desktop](src\design\animacao-huddle.gif)
 
 - **Versão Mobile**  
   ![Versão Mobile](src\design\Mobile.png)
+
+
 
 ## Tecnologias Utilizadas
 - **HTML5**: Estrutura semântica do conteúdo.
@@ -34,7 +37,4 @@ Aqui está uma prévia de como o layout se adapta em diferentes dispositivos:
 - `responsivo.css`: Regras específicas para adaptação em diferentes tamanhos de tela.
 - Pasta `src/images`: Contém imagens e ícones utilizados no projeto.
 
-## Como Usar o Projeto
-1. **Clone o repositório**:
-   ```bash
-   git clone https://github.com/andreia-tofoli/exercicio-huddle-landing-page.git
+
