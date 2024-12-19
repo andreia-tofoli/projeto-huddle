@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    max-width: 2500px;
+    margin: 0 auto;
+    background-size: cover;
+    padding: 20px;
+ 
+}
+
+.header .logo img {
+    padding: 50px;
+    width: 25%;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 50px 0 50px;
+}
+
+.main .imagem-site {
+    width: 60%;
+}
+
+.main .descricao {
+    width: 40%;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    font-family: "Poppins", sans-serif;
+}
+
+.main .descricao .titulo {
+    color: #fff;
+    font-size: calc(2.7em + 1vw);
+}
+
+.main .descricao .paragrafo {
+    font-size: calc(0.3em + 1vw);
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+}
+
+.main .descricao .botao {
+    color: hsl(257, 40%, 49%);
+    font-size: calc(0.4em + 1vw);
+    font-weight: 400;
+    width: 50%;
+    height: 12%;
+    border-radius: 37px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.main .descricao .botao:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.footer{
+    padding:0 40px 0px 0;
+}
+
+.footer .redes-sociais ul {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    padding-bottom:30px;
+}
+
+.footer .redes-sociais ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer .redes-sociais ul li a:hover {
+    color: hsl(300, 69%, 71%);
+}
