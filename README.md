@@ -20,7 +20,7 @@ Abaixo estão prévias de como o projeto se apresenta em diferentes dispositivos
 ![Versão Mobile](./src/images/mobile.png)
 
 ### Aqui está um vídeo mostrando o funcionamento do projeto:  
-[![Demonstração do Projeto](./src/images/animacao-huddle.gif)]
+![Demonstração do Projeto](./src/images/animacao-huddle.gif)
 
 ## Tecnologias Utilizadas
 
